@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  background-image: radial-gradient(ellipse, #385300, #212900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.counter {
+  background-color: #bef227;
+  width: 476px;
+  height: 615px;
+  border-radius: 12px;
+  box-shadow: 0 25px 121px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter__title {
+  opacity: 0.6;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 60px;
+  transition: all 0.4s ease; 
+}
+
+.counter__value {
+  font-size: 180px;
+  font-weight: 500;
+  margin-top: 10px;
+  transition: all 0.4s ease; 
+}
+
+.counter__buttons {
+  background-color: #1d2507;
+  height: 116px;
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  transition: all 0.4s ease; 
+}
+
+.counter__button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #bdfe00;
+  transition: all 0.5s ease;
+}
+
+.counter__button:hover {
+  background-color: #2a340a;
+}
+
+.counter__reset-button {
+  margin-top: 10px;
+  transition: all 0.5s ease;
+}
+
+
+.fade {
+  opacity: 0.4;
+}
+
+
+.limit-color {
+  color: #3d5619;
+}
